@@ -1,0 +1,65 @@
+*,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav {
+  position: sticky;
+}
+
+ul {
+  list-style: none;
+  background-color: rgb(230, 225, 211);
+  border-bottom: 4px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li a {
+  white-space: nowrap;
+}
+
+h1,
+li {
+  display: inline-block;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.cover-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cover-item {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+a {
+  background-color: transparent;
+}
+
+.blog-topic {
+  display: inline-block;
+}
+
+.blog-topic-container {
+  background-color: black;
+}
